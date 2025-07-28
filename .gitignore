@@ -74,19 +74,20 @@ Desktop.ini
 .tgitconfig
 
 # Cache Directories
-*\DerivedDataCache\*
+\DerivedDataCache\*
 *\FileOpenOrder\*
 *\ShaderCompileWorker\DDC\*
 
 # Generated Directories
-*\Intermediate\*
-*\Saved\*
-
+Intermediate/*
+*Intermediate/*
+Saved/*
+*Saved/*
 # Content Directories
-\FeaturePacks\*
-\Samples\*
-\Templates\*
-*\Developers\*
+FeaturePacks/*
+Samples/*
+Templates/*
+*Developers/*
 
 #------------------------------------------------------------------------------
 # Platform Specific
