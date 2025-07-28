@@ -1,7 +1,13 @@
+# Perforce Ignore File for Unreal Engine project
+# Last Updated: 2025
+
 #------------------------------------------------------------------------------
 # Version Control Systems
 #------------------------------------------------------------------------------
+# Perforce
 .p4ignore
+
+# Git
 .gitattributes
 .gitignore
 .git
@@ -24,7 +30,7 @@ Desktop.ini
 # Development Files
 #------------------------------------------------------------------------------
 # Visual Studio
-.vs/
+.vs
 *.sln
 *.opensdf
 *.sdf
@@ -38,103 +44,62 @@ Desktop.ini
 *.dll.mdb
 
 #------------------------------------------------------------------------------
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Binary and Generated Files (Not Ignored - Sharing pre-built via Control Version)
+#------------------------------------------------------------------------------
+# Executables and Libraries
+#*.exe
+#*.dll
+#*.pdb
+#*.lib
+#*.exp
 
-# Precompiled Headers
-*.gch
-*.pch
+# Compiled Objects
+#*.o
+#*.so
+#*.a
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-*.ipa
+# Debug & Temporary
+#*.dmp
+#*.tmp
+#.ignore
 
 #------------------------------------------------------------------------------
-# Unreal Engine
+# Unreal Engine (Some not Ignored - Sharing pre-built via Control Version)
 #------------------------------------------------------------------------------
-# Project files
-*.xcodeproj
-*.xcworkspace
-*.target
-*.modules
-*.version
+# Generated Project Files
+#*.target
+#*.modules
+#*.version
 .ue4dependencies
 .tgitconfig
 
 # Cache Directories
-DerivedDataCache/*
-*DerivedDataCache/*
-*FileOpenOrder/*
-*ShaderCompileWorker/DDC/*
+*\DerivedDataCache\*
+*\FileOpenOrder\*
+*\ShaderCompileWorker\DDC\*
 
 # Generated Directories
-Intermediate/*
-*Intermediate/*
-Saved/*
-*Saved/*
+*\Intermediate\*
+*\Saved\*
 
 # Content Directories
-FeaturePacks/*
-Samples/*
-Templates/*
-*Developers/*
-
-# Binary Files
-Binaries/*
-Plugins/**/Binaries/*
-
-# Builds
-Build/*
-Build/**/*
-!Build/*/PakBlacklist*.txt
-!Build/**/*.ico
-
-# Built data for maps
-*_BuiltData.uasset
+\FeaturePacks\*
+\Samples\*
+\Templates\*
+*\Developers\*
 
 #------------------------------------------------------------------------------
 # Platform Specific
 #------------------------------------------------------------------------------
 # Mobile & Web
-*Android/*
-*IOS/*
-*HTML5/*
+*\Android\*
+*\IOS\*
+*\HTML5\*
 
 # Desktop
-*Linux/*
-*Mac/*
+*\Linux\*
+*\Mac\*
 
 # Other
-*Lumin/*
+*\Lumin\*
 
-#------------------------------------------------------------------------------
-# Precompiled Assets
-#------------------------------------------------------------------------------
-SourceArt/**/*.png
-SourceArt/**/*.tga
-
-#------------------------------------------------------------------------------
-# Miscellaneous
-#------------------------------------------------------------------------------
-*.dmp
-*.tmp
-.ignore
