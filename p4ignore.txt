@@ -1,0 +1,105 @@
+# Perforce Ignore File for Unreal Engine project
+# Last Updated: 2025
+
+#------------------------------------------------------------------------------
+# Version Control Systems
+#------------------------------------------------------------------------------
+# Perforce
+.p4ignore
+
+# Git
+.gitattributes
+.gitignore
+.git
+
+#------------------------------------------------------------------------------
+# Operating Systems
+#------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+#------------------------------------------------------------------------------
+# Development Files
+#------------------------------------------------------------------------------
+# Visual Studio
+.vs
+*.sln
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.VC.opendb
+*.VC.db
+*.vsconfig
+
+# Mono
+*.dll.mdb
+
+#------------------------------------------------------------------------------
+# Binary and Generated Files (Not Ignored - Sharing pre-built via Control Version)
+#------------------------------------------------------------------------------
+# Executables and Libraries
+#*.exe
+#*.dll
+#*.pdb
+#*.lib
+#*.exp
+
+# Compiled Objects
+#*.o
+#*.so
+#*.a
+
+# Debug & Temporary
+#*.dmp
+#*.tmp
+#.ignore
+
+#------------------------------------------------------------------------------
+# Unreal Engine (Some not Ignored - Sharing pre-built via Control Version)
+#------------------------------------------------------------------------------
+# Generated Project Files
+#*.target
+#*.modules
+#*.version
+.ue4dependencies
+.tgitconfig
+
+# Cache Directories
+*\DerivedDataCache\*
+*\FileOpenOrder\*
+*\ShaderCompileWorker\DDC\*
+
+# Generated Directories
+*\Intermediate\*
+*\Saved\*
+
+# Content Directories
+\FeaturePacks\*
+\Samples\*
+\Templates\*
+*\Developers\*
+
+#------------------------------------------------------------------------------
+# Platform Specific
+#------------------------------------------------------------------------------
+# Mobile & Web
+*\Android\*
+*\IOS\*
+*\HTML5\*
+
+# Desktop
+*\Linux\*
+*\Mac\*
+
+# Other
+*\Lumin\*
+
