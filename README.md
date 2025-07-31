@@ -1,266 +1,130 @@
-# \# ✈️ 7700: Captain Not Found!
+\#✈️ 7700: Captain Not Found!
 
-# 
 
-# Git repository for the game prototype \*\*7700: Captain Not Found!\*\*
 
-# 
+Prototype repository for \*\*7700: Captain Not Found!\*\*
 
-# ---
 
-# 
 
-# \## 📝 Game Description \[ENG]
+---
 
-# 
 
-# Trapped in the cockpit after the captain’s sudden collapse, you, a panicked steward, must interact with unfamiliar controls to save a passenger jet from disaster. Guided only briefly by ATC before losing contact, you have five minutes of fuel and must decipher cryptic instruments, levers, and warnings to keep the plane stable and protect everyone on board. Every second counts in this tense, pixel-art survival challenge.
 
-# 
+\## 📝 Game Description
 
-# \*\*Discover unique scenarios!\*\*
 
-# 
 
-# ---
+\*\*EN:\*\*  
 
-# 
+You are a panicked steward trapped in the cockpit after the captain collapses. With only brief ATC guidance and five minutes of fuel, you must decipher cryptic controls to keep a passenger jet stable. Every second counts in this tense, pixel-art survival challenge.
 
-# \## 📝 Opis gry \[PL]
 
-# 
 
-# Uwięziony w kokpicie po nagłym zasłabnięciu kapitana, grasz jako spanikowany steward, który musi uratować samolot pasażerski przed katastrofą. Masz tylko chwilowy kontakt z wieżą – potem zostajesz sam. Pięć minut paliwa, nieznane przyrządy, dźwignie i ostrzeżenia – wszystko zależy od Ciebie. Każda sekunda ma znaczenie w tym napiętym, pixel-artowym wyzwaniu przetrwania.
+\*\*PL:\*\*  
 
-# 
+Jako spanikowany steward, uwięziony w kokpicie po zasłabnięciu kapitana, musisz uratować samolot pasażerski. Masz tylko chwilowy kontakt z wieżą i pięć minut paliwa – każda sekunda się liczy w tym pixel-artowym wyzwaniu przetrwania.
 
-# \*\*Odkrywaj unikalne scenariusze!\*\*
 
-# 
 
-# ---
+---
 
-# 
 
-# \## 📌 1. Ogólna koncepcja gry
 
-# 
+\## 📌 Game Concept
 
-# \- \*\*Tytuł roboczy:\*\* 7700: Captain Not Found!
 
-# \- \*\*Gatunek:\*\* 2D Puzzle Simulator, Survival, Czarny humor
 
-# \- \*\*Platforma:\*\* PC (Windows)
+\- \*\*Title:\*\* 7700: Captain Not Found!
 
-# \- \*\*Czas rozgrywki:\*\* ok. 3–5 minut na podejście
+\- \*\*Genre:\*\* 2D Puzzle Simulator, Survival, Dark Humor
 
-# \- \*\*Zespół:\*\*
+\- \*\*Platform:\*\* PC (Windows)
 
-# &nbsp; - Programista: 1 (senior)
+\- \*\*Playtime:\*\* 3–5 minutes per run
 
-# &nbsp; - Artysta/UI: 1 (pixel-art 2D)
+\- \*\*Team:\*\* 1 Programmer (senior), 1 Artist/UI (2D pixel art)
 
-# 
 
-# \*\*Opis:\*\*  
 
-# Po nagłym zasłabnięciu kapitana, steward zostaje sam w kokpicie. Z minimalną pomocą od wieży i zerową wiedzą techniczną, musi w ciągu 5 minut zrozumieć działanie przyrządów i uratować pasażerów. Gra oferuje wiele możliwych zakończeń i bazuje na eksperymentowaniu.
+\*\*Summary:\*\*  
 
-# 
+Left alone in the cockpit, the steward must experiment with unfamiliar instruments to save the passengers. Multiple endings and replayability encourage creative problem-solving.
 
-# ---
 
-# 
 
-# \## 📌 1. General Game Concept
+---
 
-# 
 
-# \- \*\*Working Title:\*\* 7700: Captain Not Found!
 
-# \- \*\*Genre:\*\* 2D Puzzle Simulator, Survival, Dark Humor
+\## 🎮 Core Gameplay Loop
 
-# \- \*\*Platform:\*\* PC (Windows)
 
-# \- \*\*Playtime:\*\* 3–5 minutes per attempt
 
-# \- \*\*Team:\*\*
+1\. Brief ATC intro
 
-# &nbsp; - Programmer: 1 (senior)
+2\. Experiment with cockpit controls
 
-# &nbsp; - Artist/UI: 1 (2D pixel art)
+3\. Observe outcomes, learn logic
 
-# 
+4\. Keep the plane stable as time runs out
 
-# \*\*Description:\*\*  
+5\. Reach one of many possible endings
 
-# A steward is left alone in the cockpit after the captain collapses. With minimal guidance and no technical knowledge, he must learn the controls within 5 minutes to save the passengers. The game focuses on experimentation and multiple possible outcomes.
 
-# 
 
-# ---
+\*\*Replayability:\*\*  
 
-# 
+Discover new functions, try alternate solutions, and unlock unique scenarios.
 
-# \## 🎮 2. Główna pętla rozgrywki
 
-# 
 
-# \### Start gry:
+---
 
-# \- Krótkie intro dialogowe z wieżą (ATC)
 
-# \- Gracz trafia do kokpitu z ograniczonymi instrukcjami
 
-# 
+\## 🎨 Art \& UI
 
-# \### Pętla:
 
-# 1\. Eksperymentowanie z interfejsem kokpitu  
 
-# 2\. Obserwowanie efektów i nauka zależności  
+\- Pixel art (low-res, retro)
 
-# 3\. Próby utrzymania stabilności lotu  
+\- Cool palette: blues, greys, red accents
 
-# 4\. Czas ucieka – rośnie napięcie  
+\- Simplified, static cockpit view
 
-# 5\. Osiągnięcie jednego z wielu zakończeń
+\- No HUD; all info is in-world
 
-# 
+\- No tutorial – learn by doing
 
-# \### Powtarzalność:
 
-# \- Odkrywanie nowych funkcji
 
-# \- Eksperymentowanie z sekwencjami
+---
 
-# \- Gra zachęca do wielu podejść
 
-# 
 
-# ---
+\## 🎯 Inspirations
 
-# 
 
-# \## 🎮 2. Core Gameplay Loop
 
-# 
+\- Please, Don’t Touch Anything
 
-# \### Game Start:
+\- Return of the Obra Dinn
 
-# \- Brief dialogue with ATC
+\- Papers, Please
 
-# \- Player is left with limited instructions
+\- Not For Broadcast
 
-# 
+\- Flight Simulator (cockpit layout)
 
-# \### Loop:
+\- Undertale (multiple endings, meta-narrative)
 
-# 1\. Experiment with the cockpit interface  
 
-# 2\. Observe consequences and learn logic  
 
-# 3\. Attempt to keep the plane stable  
+---
 
-# 4\. Time is running — tension builds  
 
-# 5\. Reach one of many possible endings
 
-# 
-
-# \### Replayability:
-
-# \- Discover new functions
-
-# \- Try alternate solutions
-
-# \- Encourages repeated playthroughs
-
-# 
-
-# ---
-
-# 
-
-# \## 🎨 3. Styl graficzny i referencje
-
-# 
-
-# \### Styl:
-
-# \- Pixel art (low-res, retro styl)
-
-# \- Chłodna kolorystyka (szarości, błękity, czerwone ostrzeżenia)
-
-# \- Uproszczony kokpit
-
-# \- Jedno statyczne ujęcie
-
-# \- Fizyczny interfejs bez HUD-a
-
-# 
-
-# \### UI/UX:
-
-# \- Brak tutoriala – nauka przez eksperyment
-
-# \- Intuicyjne ikony
-
-# \- Wszystko mieści się na jednym ekranie
-
-# 
-
-# ---
-
-# 
-
-# \## 🎨 3. Art Style \& References
-
-# 
-
-# \### Visual Style:
-
-# \- Pixel art (low-res, clean, retro)
-
-# \- Cool palette: blues, greys, red accents
-
-# \- Stylized, simplified cockpit
-
-# \- One static screen
-
-# \- No HUD – everything in-world
-
-# 
-
-# \### UI/UX:
-
-# \- No tutorial – learn by doing
-
-# \- Clear, memorable icons
-
-# \- Fully contained in one view
-
-# 
-
-# ---
-
-# 
-
-# \## 🎯 Inspiracje / Inspirations
-
-# 
-
-# \- \*\*Please, Don’t Touch Anything\*\* – jednoekranowa zagadka  
-
-# \- \*\*Return of the Obra Dinn\*\* – obserwacja i dedukcja  
-
-# \- \*\*Papers, Please\*\* – napięcie i powtarzalne decyzje  
-
-# \- \*\*Not For Broadcast\*\* – absurd i kontrola  
-
-# \- \*\*Flight Simulator\*\* – tylko układ kokpitu  
-
-# \- \*\*Undertale\*\* – alternatywne zakończenia i meta-narracja
+\*For Polish description, see above.\*
 
 
 
